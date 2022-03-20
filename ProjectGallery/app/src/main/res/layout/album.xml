@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:text="Album cua toi"
+            android:background="#c98282"
+            android:gravity="center"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="Tat ca anh" />
+        <Button android:text="Muc uu thich"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="album khong tieu de" />
+        <Button android:text="Cam360" />
+        <Button android:text="Tiktok" />
+    </TableRow>
+
+</TableLayout>
