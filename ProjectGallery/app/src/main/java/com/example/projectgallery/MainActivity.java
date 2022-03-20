@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        albumbtn = findViewById(R.id.albumbtn);
+//        albumbtn = findViewById(R.id.);
 //        timelinebtn = findViewById(R.id.timelinebtn);
-
+//
 //        albumbtn.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         if(!isGalleryInitialized) {
-            final GridView listView = findViewById(R.id.gridView);
+            final GridView gridView = findViewById(R.id.gridView);
             final GalleryAdapter galleryAdapter = new GalleryAdapter();
             final File imagesDir = new File(String.valueOf(Environment.
                     getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)));
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
             galleryAdapter.setData(filesList);
-            listView.setAdapter(galleryAdapter);
+            gridView.setAdapter(galleryAdapter);
             isGalleryInitialized = true;
         }
     }

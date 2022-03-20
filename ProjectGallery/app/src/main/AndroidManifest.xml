@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Fullimages"></activity>
-        <activity android:name=".album" />
+<!--        <activity android:name=".album" />-->
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
