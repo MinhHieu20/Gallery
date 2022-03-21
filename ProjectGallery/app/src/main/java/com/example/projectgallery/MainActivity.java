@@ -37,15 +37,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        albumbtn = findViewById(R.id.);
-//        timelinebtn = findViewById(R.id.timelinebtn);
-//
-//        albumbtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                setContentView(R.layout.album);
-//            }
-//        });
+        albumbtn = findViewById(R.id.albumbtn);
+        timelinebtn = findViewById(R.id.timelinebtn);
+
+        albumbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.album);
+            }
+        });
     }
 
     private  static final int REQUEST_PERMISSIONS = 1234;

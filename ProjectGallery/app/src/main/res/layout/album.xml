@@ -15,7 +15,6 @@
     <TableRow>
         <Button android:text="album khong tieu de" />
         <Button android:text="Cam360" />
-        <Button android:text="Tiktok" />
     </TableRow>
 
 </TableLayout>
